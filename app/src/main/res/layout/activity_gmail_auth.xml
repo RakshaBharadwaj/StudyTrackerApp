@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GmailAuthActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:orientation="vertical"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_tran" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingTop="5dp"
+            android:shadowColor="#0E0E0E"
+            android:text=" Sign In"
+            android:textColor="#000000"
+            android:textSize="35dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+
+        <Button
+            android:id="@+id/google_signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
+            android:drawableLeft="@drawable/common_google_signin_btn_icon_light"
+            android:elevation="8dp"
+            android:paddingLeft="40dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:text="              Sign In with Google"
+
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

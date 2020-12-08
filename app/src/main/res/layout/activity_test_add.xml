@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".TestsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="#000C5D"
+        android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/Title_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Add new tests"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="28dp" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="20dp"
+            android:background="#131e69" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:elevation="8dp"
+        android:background="@drawable/add_new_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-55dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/test_title"
+                        android:text="Test Title"
+                        android:textColor="#131e69"
+                        android:layout_marginBottom="18dp"
+                        android:textSize="21dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_test_name"
+                app:errorTextColor="@color/pink"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="21dp"
+
+                    android:paddingLeft="12dp"
+                    android:background="@drawable/bg_input_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:elevation="8dp"
+        android:background="@drawable/add_new_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+
+                android:text="Maximum Marks"
+                android:textColor="#131e69"
+                android:layout_marginBottom="18dp"
+                android:textSize="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_max_marks"
+                app:errorTextColor="@color/pink">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingLeft="12dp"
+                    android:textSize="21dp"
+                    android:background="@drawable/bg_input_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:inputType="number">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Create Now"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:elevation="7dp"
+        android:background="@drawable/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_create_test">
+
+    </Button>
+    <Button
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Cancel"
+        android:textColor="#AFAFAF"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:elevation="7dp"
+        android:background="@drawable/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_cancel">
+
+    </Button>
+</LinearLayout>

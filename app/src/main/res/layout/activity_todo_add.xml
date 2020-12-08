@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#CBCDCD"
+tools:context=".TodoAddActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="198dp"
+    android:background="#163E71"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Title_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Add new tasks"
+        android:textColor="#fff"
+        android:textSize="28dp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="30dp"
+        android:background="#2A4668" />
+
+</LinearLayout>
+    <LinearLayout
+        android:elevation="8dp"
+        android:background="@drawable/add_new_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+
+                android:text="Task Description"
+                android:textColor="#131e69"
+                android:layout_marginBottom="5dp"
+                android:textSize="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_task"
+                app:errorTextColor="@color/pink">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingLeft="12dp"
+                    android:textSize="21dp"
+                    android:background="@drawable/bg_input_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    >
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:elevation="8dp"
+    android:background="@drawable/add_new_tests"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+
+            android:text="Select Date"
+            android:textColor="#131e69"
+            android:layout_marginBottom="13dp"
+            android:textSize="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+
+            android:layout_marginBottom="10dp"
+            android:textColor="#696969"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:elevation="7dp"
+            android:background="@drawable/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="--no Date Selected--"
+            android:id="@+id/date_selector_task">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+<Button
+    android:layout_marginTop="180dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:text="Create Now"
+    android:textColor="#fff"
+    android:textAllCaps="false"
+    android:textSize="20dp"
+    android:elevation="7dp"
+    android:background="@drawable/btn_create"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/btn_create_task">
+
+</Button>
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:text="Cancel"
+    android:textColor="#AFAFAF"
+    android:textAllCaps="false"
+    android:textSize="20dp"
+    android:elevation="7dp"
+    android:background="@drawable/btn_cancel"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/btn_cancel_task">
+
+</Button>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581055966400",
+    "firebase_url": "https://performance-tracker-ece8d.firebaseio.com",
+    "project_id": "performance-tracker-ece8d",
+    "storage_bucket": "performance-tracker-ece8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581055966400:android:8e0b048c0e4e3eee361125",
+        "android_client_info": {
+          "package_name": "com.raksha.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581055966400-l2965ldsrg6i3umk5lpiknpjv3562ser.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raksha.myapplication",
+            "certificate_hash": "481ac1c954c5792f2124c8df859bbcc9402d9f2a"
+          }
+        },
+        {
+          "client_id": "581055966400-brnpdvbd2kfl804cl9d5fi19g7ldh2gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7IMcJTxYF1v8GoFQ11C5UViOnjwg9yvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581055966400-brnpdvbd2kfl804cl9d5fi19g7ldh2gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".SubjectActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="#ffca71">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Title_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Subjects"
+
+                    android:textColor="#000C5D"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Add your subjects here"
+
+                    android:textColor="#000F77"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add_new_sub"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/newbtnadd"
+                android:fontFamily="sans-serif-light"
+                android:text="+"
+                android:textColor="#fff"
+                android:textSize="38sp">
+
+            </Button>
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="38dp"
+            android:background="#ffbf25"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/sub_recycler_view"
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/end_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="No More Subjects"
+        android:textAlignment="center"
+        android:textColor="#7A7979"
+        android:textSize="16sp" />
+
+</LinearLayout>

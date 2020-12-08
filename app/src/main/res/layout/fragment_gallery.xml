@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/me_banner_1"
+
+        ></ImageView>
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Raksha M Bharadwaj"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000"
+        android:textSize="24dp">
+
+    </TextView>
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+        android:text="Student Devloper"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/purple"
+        android:textSize="21dp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#B3B5C8" />
+
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:text="Student Tracker App :"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/purple"
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:text="Version 1.0.0"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#919198"
+        android:linksClickable="true"
+        android:textSize="18dp">
+
+    </TextView>
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:text="Last Updated 13-Sep-2020"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#919198"
+        android:linksClickable="true"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left"
+        android:linksClickable="true"
+        android:text="Whats New?\n\n-Maintain your own TO-DO List\n-Add your own tests and subjects\n-Interactive graphs to keep track of your score\n-Add Marks with date\n-Colourful Interface"
+        android:textColor="#919198"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#B3B5C8" />
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="©2020 RakshaBharadwaj"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#919198"
+        android:linksClickable="true"
+        android:textSize="12dp">
+
+    </TextView>
+
+
+</LinearLayout>

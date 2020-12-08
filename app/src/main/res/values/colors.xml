@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#4A47A7</color>
+    <color name="purple">#4A47A7</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gradStart">#60308b</color>
+    <color name="gradEnd">#8a2b84</color>
+    <color name="transparent">#00000000</color>
+    <color name ="Blue">#000c5d</color>
+    <color name="pink">#ff4c6f</color>
+    <color name="pinktrend">#D81B60</color>
+    <color name="white">#fff</color>
+
+
+</resources>
